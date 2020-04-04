@@ -2,7 +2,7 @@
 @section('content')
 
     <section class="content">
-        {!! Form::model($project, ['url' => route('project.update', ['project' => $project]), 'role' => 'form', 'class' => 'form-horizontal ui form', 'method' => 'PATCH']) !!}
+        {!! Form::model($project, ['url' => route('project.update', ['project' => $project]), 'role' => 'form', 'class' => 'form-horizontal ui form', 'method' => 'PATCH', 'files' => true]) !!}
 
         <div class="ui segments">
             <div class="ui segment clearfix">

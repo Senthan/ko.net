@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="130d1462-8551-488e-ba2c-9472258305c1" name="Default Changelist" comment="" />
+    <list default="true" id="130d1462-8551-488e-ba2c-9472258305c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project_management/_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project_management/_form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project_management/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project_management/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project_management/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project_management/edit.blade.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +17,35 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/project_management/_form.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/project_management/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/project_management/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="186" selection-start-line="4" selection-start-column="186" selection-end-line="4" selection-end-column="186" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -57,10 +90,7 @@
         <option value="$PROJECT_DIR$/resources/views/role_management/assign_permission.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user_management/_form.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/resources/views/project_management/_form.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/project_management/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project_management/delete.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/project_management/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project_management/show.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/project_management/index.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
@@ -79,6 +109,9 @@
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_partials/_topnav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_partials/_scripts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/project_management/_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/project_management/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/project_management/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -242,15 +275,7 @@
               <item name="job-queue" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="job-queue" type="b2602c69:ProjectViewProjectNode" />
-              <item name="job-queue" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
-              <item name="_partials" type="462c0819:PsiDirectoryNode" />
+              <item name="project_management" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,17 +321,18 @@
       <updated>1585454744138</updated>
       <workItem from="1585454752847" duration="24761000" />
       <workItem from="1585740207388" duration="8306000" />
-      <workItem from="1585974825010" duration="2469000" />
+      <workItem from="1585974825010" duration="4471000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35536000" />
+    <option name="totallyTimeSpent" value="37538000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-12" y="0" width="1488" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25630254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25630254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -321,7 +347,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3295129" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3157143" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3157143" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,24 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project_management/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/project_management/delete.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project_management/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -597,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/project_management/_form.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/role_management/_form.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -673,6 +678,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="770">
           <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/project_management/_form.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/project_management/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/project_management/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="186" selection-start-line="4" selection-start-column="186" selection-end-line="4" selection-end-column="186" />
         </state>
       </provider>
     </entry>

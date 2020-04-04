@@ -2,12 +2,12 @@
 @section('content')
 
     <section class="content">
-        {!! Form::open(['url' => route('project.store'), 'role' => 'form', 'class' => 'form-horizontal ui form']) !!}
+        {!! Form::open(['url' => route('project.store'), 'role' => 'form', 'class' => 'form-horizontal ui form', 'files' => true]) !!}
 
         <div class="ui segments">
             <div class="ui segment clearfix">
                 <div class="pull-right">
-                    <a class="ui small button" href="{{ route('user.index') }}">User</a>
+                    <a class="ui small button" href="{{ route('project.index') }}">Projects</a>
                 </div>
             </div>
             <div class="ui green segment">

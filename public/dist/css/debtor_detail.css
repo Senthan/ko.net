@@ -1,0 +1,602 @@
+
+div.wrapper{
+    overflow-y: hidden;
+}
+
+.ptpbody{
+    max-height: 350px;
+    overflow-y: scroll;
+}
+
+.dataTables tbody tr td {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.box-header{
+    padding-bottom: 0px;
+}
+
+.custom-box{
+    min-height: 170px;
+}
+
+.custom-box-less{
+    min-height: 147px;
+}
+
+.custom-box-more{
+    min-height: 160px;
+}
+
+.custom-box-body{
+    padding-top: 3px;
+}
+
+div.row{
+    padding-bottom: 0px;
+}
+
+
+
+.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{
+    padding-top: 1.4px;
+    padding-bottom: 0.2px;
+}
+
+.dataTables{
+    margin-top: 6px !important;
+}
+
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after{
+    bottom: 0px;
+}
+
+.custom-content{
+
+    padding-bottom: 0px;
+}
+
+.custom_line_height_name{
+    line-height: .9;
+}
+
+.custom_line_height{
+    line-height: .6;
+}
+
+.custom_progress{
+    margin-bottom: 1.2px;
+}
+
+.custom-bold-color{
+    color:#555D32;
+    text-shadow: .5px .5px .5px #f2f2f2;
+    font-weight: 600;
+}
+
+.custom-total-color{
+    color: white;
+    text-shadow: .5px .5px .5px #555D32;
+    font-weight: 600;
+}
+
+table.dataTable thead .sorting:after{
+    content: "";
+}
+
+.custom-fw{
+    font-weight:400;
+}
+
+.box-header{
+    padding-top: 6px;
+    padding-bottom: 5px;
+}
+
+.makeTransparentForClicks{
+    pointer-events: none;
+}
+
+
+.nopadCustom{
+    padding: 5px 0px;
+}
+
+.nopad{
+    padding: 0px;
+    text-shadow: 0.5px 0.5px 0.5px white;
+}
+
+.row-hover-hand:hover{
+    cursor:pointer;
+}
+
+a.uploadFileText{
+    color:gray;
+}
+
+a.uploadFileText:hover{
+    color:green;
+}
+
+.customModalBG{
+    background: transparent;
+}
+
+.nopad_bottom{
+    padding-bottom: 0px;
+}
+
+.custom-bg{
+    background: #ECF0F5;
+}
+
+.handOnHover:hover{
+    cursor: pointer;
+}
+
+.iconColor{
+    color: #3C8DBC;
+}
+
+.debtInfoBorderTop{
+    border-top:1px solid #3c8dbc;
+}
+
+.makeCall{
+    color: #00A65A;
+    background: white;
+}
+
+.makeCall:hover{
+    color: gray;
+}
+
+.minmaxCon{
+    right: 0px;
+    width: 60%;
+}
+
+.min{
+    width: 100%;
+}
+
+.checkboxName{
+    padding-left: 14px;
+}
+
+.contactableRow{
+    background: #2accae;
+    color: #eff4f4;
+}
+
+.uncontactableRow{
+    background: #e56237;
+    color: #eff4f4;
+}
+
+.inactiveRow{
+    background: #93a4c1;
+}
+
+.actualDataContact:hover{
+  color: inherit;
+}
+
+.actualDataEmail:hover{
+  color: inherit;
+}
+
+
+
+.bg-on-hover:hover{
+    background: #efe6e6;
+}
+
+.overflowHidden{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    max-width: 250px;
+}
+
+.overflowHiddenSmall{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    max-width: 70px;
+}
+
+.overflowHiddenMedium{
+    white-space: nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    max-width: 118px;
+}
+
+.hideOnLoad{
+    display: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    /*background: #00a65a;*/
+    background: #337AB7;
+    color: white;
+}
+
+.debtorStatus{
+    padding: 4px 6px;
+    border-radius: 100%;
+}
+
+.modal-custom-lg{
+    width: 96%;
+}
+
+.changeColorOnHover{
+    color: gray;
+}
+
+.changeColorOnHover:hover{
+    color: inherit;
+}
+
+.scrollLeft{
+    border-radius:5px 0px 0px 5px;
+}
+
+.scrollRight{
+    border-radius:0px 5px 5px 0px;
+}
+
+.justForShow{
+    height: 21.8px;
+}
+
+.justForShowFollowUp{
+    height: 20px;
+}
+
+.justForShowContact{
+    height: 20px;
+}
+
+.justForShowAddress{
+    height: 20px;
+}
+
+.display_none{
+    display: none;
+}
+
+.sweet-alert .sa-icon{
+    margin: 10px auto;
+}
+
+.sweet-alert h2{
+    margin: 10px 0;
+}
+
+.notiOnHover{
+    background: #fcf7f2;
+}
+
+#allPaid{
+    border: 0px solid #00A65A;
+    background: #09c44e;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    /*font-size: 12px;*/
+    box-shadow: -1px -1px 0px 0px gray;
+}
+
+#contact1Container, #email_tab, #addressContainer{
+    max-height: 105px;
+}
+
+.highlightedTitle{
+    border-radius: 5px;
+    cursor: default;/*
+    background: #f2f7ef;
+    box-shadow: 1px 1px 1px #6e8e61;*/
+    border: 1px solid #9ee57e;
+    padding: 1px 5px 0px 5px;
+}
+
+/*.highlightedTitle:hover{
+    cursor: default;
+    background: #f2f7ef;
+    box-shadow: 1px 1px 1px #6e8e61;
+}*/
+
+.collectorHistoryBtn:hover{
+  color: orange;
+}
+
+@media only screen and (min-width: 1028px) {
+
+
+    .minmaxCon{
+        right: 3px;
+    }
+
+    .minmaxCon{
+        width: 27%;
+    }
+
+    .padCustom{
+        padding: 15px;
+    }
+
+    .checkboxName{
+        padding-left: 0px;
+    }
+
+    .modal-custom-lg{
+        width: 95%;
+    }
+}
+
+
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-    ng-cloak {
+    display: none !important;
+}
+.toolbar {
+    float: left;
+}
+
+.handOnHover:hover{
+    cursor: pointer;
+}
+
+.grid {
+      width: 100%;
+      height: 300px;
+     }
+
+.ui-grid-row, .ui-grid-cell, .ui-grid-cell .ui-grid-vertical-bar{
+    height: 30px !important;
+}
+
+.ui-grid-menu-mid{
+    max-height: 380px;
+}
+
+.ui.selection.dropdown{
+      min-height: 32px;height: 32px;
+    }
+
+.ui-grid-selectable .ui-grid-disable-selection {
+    -webkit-touch-callout: default;
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+    cursor:auto;
+}
+
+.ui-grid-grid-footer{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.ui-grid-row, .ui-grid-cell {
+    border-bottom: 1px solid #F4F4F4 !important;
+}
+
+.customClassToAdjustHeader>div>.ui-grid-filter-container {
+    pointer-events:none;
+}
+.ui-grid-viewport {
+    overflow-anchor: none;
+}
+
+.grid .ui-grid{
+    margin-top: 0px;
+}
+
+.uiGridBody{
+    padding-top: 0px;
+}
+.ui .search{
+    font-size: 1.2em !important;
+}
+.ui-grid, .ui-grid-viewport {
+    height: 320px !important;
+}
+
+
+
+
+/* Call Modal */
+
+.fade-scale {
+  transform: scale(0);
+  opacity: 0.5;
+  -webkit-transition: all .35s linear;
+  -o-transition: all .35s linear;
+  transition: all .35s linear;
+}
+
+.fade-scale.in {
+  opacity: 1;
+  transform: scale(1);
+}
+
+#makeCallModal{
+  background: gray;
+}
+
+/*#makeCallModal>.modal-dialog{
+  border: 1px solid #14c920;
+}
+*/
+.callContent {
+  height: 400px;
+  padding: 10px 0px 0px 0px;
+  border: 0.5px solid #D9EDF7;
+  overflow-y: auto;
+  height: 430px !important;
+  overflow-x: hidden;
+
+}
+
+.callContentWithOutHeight {
+  height: auto !important;
+}
+
+.callDebtorName{
+  margin-bottom: 0px;
+}
+
+.callDebtorName:hover{
+  cursor: pointer;
+}
+
+.modal-header .btnGrp{
+      position: absolute;
+      top: 8px;
+      right: 10px;
+    }
+
+
+    .min{
+        height: 560px;
+        overflow: hidden !important;
+        padding: 0px !important;
+        margin: 0px;
+        float: left;
+        position: static !important;
+      }
+
+    .min .modal-dialog, .min .modal-content{
+        height: 100%;
+        width: 100%;
+        margin: 0px !important;
+        padding: 0px !important;
+      }
+
+    .min .modal-header{
+        height: 100%;
+        width: 100%;
+        margin: 0px !important;
+        padding: 6px 10px !important;
+      }
+
+
+
+      .display-none{background: transparent;background-color: transparent;}
+
+    button .fa{
+        font-size: 16px;
+      }
+
+    .min .fa{
+        font-size: 14px;
+      }
+
+    .min .menuTab{display: none;}
+
+    button:focus { outline: none; }
+
+    .minmaxCon{
+      height: 560px;
+      bottom: 1px;
+      position: fixed;
+      z-index: 9999;
+    }
+
+    .modalMinimize{
+      float: right;
+    }
+
+    .infoList {list-style-type: none;}
+
+    .checkSize{
+      width:17px;
+      height:17px;
+    }
+
+    .display_none{
+      display: none;
+    }
+
+    .phonePositionMin{
+      left:6px;top:11px;position: absolute;
+    }
+
+    .phonePosition{
+      left:11px;top:20px;position: absolute;
+    }
+
+    #callPhoneNo{
+      letter-spacing: 1.5px;
+    }
+    .adjustHeight{
+      min-height: 32px;
+    }
+
+    /** Dial Pad **/
+
+              .padButton{
+                border: 1px solid gray;
+                border-radius: 100%;
+                margin: 5px;
+                height: 32px;
+                width: 30px;
+                padding: 5px;
+                font-weight: bold;
+              }
+              .padButton:hover{
+                cursor: pointer;
+                background: gray;
+                color: white;
+              }
+              .dialPadContainer{
+                width: 155px;
+                height: 230px;
+                border: 1px solid #00A65A;
+                border-radius: 5px;
+                z-index: 99999;
+                position: absolute;
+                bottom: 90px;
+                left: 25px;
+                background: white;
+              }
+
+              #dialPadEnter, #inputPhoneNumber{
+                height: 30px;
+                margin-bottom: 3px;
+              }
+
+              .display_none{
+                display: none;
+              }
+
+    /** **/
+
+/*******/
+
+.result-body{
+    min-height: 160px;
+}
+
+.modal-title{color: white;}
+
+
+@media only screen and (max-width: 750px) {
+    .customClassToAdjustHeader>div>div>div>input.ui-grid-filter-input-0{
+        margin-left: 0 !important;
+    }
+}
+
+.dataTables_scrollBody {
+    height: 78px !important;
+}

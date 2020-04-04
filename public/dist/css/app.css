@@ -1,0 +1,218 @@
+.col-width-small {
+    min-width: 25px !important;
+}
+.col-width-normal {
+    min-width: 90px;
+}
+.col-width-normall {
+    min-width: 115px;
+}
+.col-width-maxx {
+    min-width: 195px;
+}
+.col-width-max {
+    min-width: 135px;
+}
+.table-font tr {
+    font-size: 14px;
+}
+.table-font tr td{
+    line-height: 7px !important;
+}
+.set-width td{
+    min-width: 115px;
+}
+.no-padding {
+    margin-left: -15px !important;
+    margin-right: -15px !important;
+}
+.report {
+    border-right: 1px solid #ECF0F5;
+}
+.ui.dropdown .menu > .item{
+    font-size: 14px !important;
+}
+.report-font-size {
+    font-size: 14px !important;
+}
+
+.nav-heading-center {
+    float: left !important;
+    margin-left: 42%;
+}
+
+.nav-heading-left {
+    float: left !important;
+}
+
+.nav-heading-toggle {
+    color: #ffffff;
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 15px 15px;
+}
+
+.no-padding-call {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+.in-call-body .list-group li {
+    border: none;
+}
+
+.info-list {
+    list-style-type: none;
+}
+.check-size {
+    width:17px;
+    height:17px;
+}
+.min-income-call{
+    height: 560px;
+    height: 35px;
+    position: fixed;
+    z-index: 9999;
+    right: 0;
+    bottom: 75%;
+}
+
+.ui-grid-viewport {
+        overflow-anchor: none;
+    }
+
+@media only screen and (min-width: 1028px) {
+
+    .min-income-call {
+        right: 0px;
+    }
+}
+
+.phone-position-min {
+    left: 11px;
+    top: 6px;
+    position: absolute;
+}
+.min-income-call .min {
+    height: 560px;
+    overflow: hidden !important;
+    padding: 0px !important;
+    margin: 0px;
+    float: left;
+    position: static !important;
+}
+
+
+.min-income-call .min .modal-dialog, .min .modal-content{
+    height: 100%;
+    width: 100%;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.min-income-call .min .modal-header{
+    height: 35px !important;
+    width: 100%;
+    margin: 0px !important;
+    padding: 6px 10px !important;
+}
+
+
+
+.min-income-call button .fa{
+    font-size: 16px;
+}
+
+.min-income-call .min .fa{
+    font-size: 14px;
+}
+
+.min-income-call .min .menuTab{display: none;}
+
+.min-income-call button:focus { outline: none; }
+
+.pd-font-size {
+    font-size: 14px !important;
+}
+
+.call-success {
+    color: #00f000;
+}
+.call-danger {
+    color: red;
+}
+
+.call-warning {
+    color: orange;
+}
+.set-auto-height {
+    height: auto !important;
+}
+.model-body--height {
+    overflow-y: scroll;
+    height: 590px;
+}
+a.briefing-description {
+    height: 100px;
+    width: 100px;
+}
+.set-height-address {
+    height: 200px;overflow-y: auto;
+}
+.help-desk {
+    font-size: 12px;
+    color: red;
+    background-color: beige;
+    font-family: sans-serif;
+    font-weight: 300;
+    margin-top: 9px;
+}
+#fast-search-box
+{
+    height: 100px;
+    width:200px;
+    position:relative;
+    border: 1px solid #000;
+}
+#fast-search-panel
+{
+    position:absolute;
+    bottom:0px;
+    width:200px;
+    height:20px;
+    border: 1px solid red;
+    display:none;
+}
+.user-setting-value {
+    margin-top: -25px;
+}
+.disabled {
+    cursor: not-allowed !important;
+    pointer-events: none;
+    background-color: #f4f4f447;
+}
+
+.loading-center {
+    margin: auto;
+}
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+    border-top: 10px solid #00a65a !important;
+    border-bottom: 10px solid #00a65a !important;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
